@@ -8,7 +8,7 @@ import '../../styles/Footer.css'
 const Footer = () => {
   return (
     <div className="footer">
-      <div>
+      <div className="socialMedia" >
         <InstagramIcon />
         <LinkedInIcon />
         <GitHubIcon />
