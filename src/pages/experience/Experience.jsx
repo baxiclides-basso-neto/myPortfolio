@@ -59,7 +59,7 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
            <h3 className="vertical-timeline-element-title">
-            Legal intern
+            Legal intern - Baciclides Basso Junior Individual Law Firm
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Americana, Brazil
@@ -73,7 +73,7 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
            <h3 className="vertical-timeline-element-title">
-            Front End Developr
+            Front End Developr - Freelancer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             São José do Rio Preto, Brazil
