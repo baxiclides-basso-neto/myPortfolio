@@ -1,22 +1,28 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { ProjectList } from "../../helpers/ProjectList";
-import { GitHubIcon } from "@material-ui/icons/GitHub";
-import '../../styles/ProjectsDisplay.css'
+import { ProjectsList } from "../../helpers/ProjectList";
+import { GitHub } from "@material-ui/icons/GitHub";
+import "../../styles/ProjectsDisplay.css";
 
-const ProjectDisplay = () => {
+export function ProjectDisplayOne() {
   const { id } = useParams();
-  const project = ProjectList[id];
+
+  const project = ProjectsList.find((p) => p.id === id);
+
   return (
     <div className="project">
-      <h1>{project.name}</h1>
-      <img src={project.image} alt="" />
-      <p>
-        <b> Skill:</b> {project.skills}
-      </p>
-      <GitHubIcon />
+      {project ? (
+        <>
+          <h1>{project.name}</h1>
+          <img className="projectImgDisplay" src={project.image} />
+          <p>
+            <b>Skills:</b> {project.skill}
+          </p>
+          {/* <GitHub /> */}
+        </>
+      ) : (
+        <div>Invalid project ID</div>
+      )}
     </div>
   );
-};
-
-export default ProjectDisplay;
+}

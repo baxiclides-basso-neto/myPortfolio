@@ -26,3 +26,8 @@
     font-size: 60px;
     color: #3e497a;
   }
+
+  .projectImgDisplay{
+    
+    max-width: 100%;
+  }

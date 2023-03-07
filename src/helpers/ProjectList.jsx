@@ -4,30 +4,39 @@ import Project3 from "../assets/Project3.png";
 import Project4 from "../assets/Project4.png";
 import Project5 from "../assets/Project5.png";
 
-export const ProjectList = [
+export const ProjectsList = [
   {
     name: "Weather Radar",
-    img: Project1,
+    image: Project1,
     skill: "JavaScript, HTML, CSS",
+    id: '0'
+
   },
   {
     name: "English Dictionary",
-    img: Project2,
+    image: Project2,
     skill: "JavaScript, HTML, CSS",
+    id: '1'
   },
   {
     name: "Kenzie Hub",
-    img: Project3,
+    image: Project3,
     skill: "ReactJS, JavaScript, CSS",
+    id: '3'
   },
   {
     name: "Burger App Javascript",
-    img: Project4,
-    skill: "ReactJS, JavaScript, CSS",
+    image: Project4,
+    skill: "ReactJS, JavaScript, Styled-components",
+    id: '4'
   },
   {
     name: "Burger App TypeScript",
-    img: Project5,
-    skill: "ReactJS, TypeScript, HTML, CSS",
+    image: Project5,
+    skill: "ReactJS, TypeScript, HTML, Styled-components",
+    id: '5'
+  
   },
 ];
+
+
