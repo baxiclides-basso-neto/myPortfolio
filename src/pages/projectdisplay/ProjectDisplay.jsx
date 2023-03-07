@@ -14,10 +14,12 @@ export function ProjectDisplayOne() {
       {project ? (
         <>
           <h1>{project.name}</h1>
-          <img className="projectImgDisplay" src={project.image} />
-          <p>
-            <b>Skills:</b> {project.skill}
-          </p>
+          <div>
+            <img className="projectImgDisplay" src={project.image} />
+            <p>
+              <b>Skills:</b> {project.skill}
+            </p>
+          </div>
           {/* <GitHub /> */}
         </>
       ) : (

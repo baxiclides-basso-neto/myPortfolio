@@ -25,13 +25,13 @@ export const ProjectsList = [
     id: '3'
   },
   {
-    name: "Burger App Javascript",
+    name: "Burger App JS",
     image: Project4,
     skill: "ReactJS, JavaScript, Styled-components",
     id: '4'
   },
   {
-    name: "Burger App TypeScript",
+    name: "Burger App TS",
     image: Project5,
     skill: "ReactJS, TypeScript, HTML, Styled-components",
     id: '5'
