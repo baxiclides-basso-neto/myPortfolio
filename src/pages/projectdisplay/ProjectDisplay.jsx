@@ -17,14 +17,15 @@ export function ProjectDisplayOne() {
         <>
           <h1>{project.name}</h1>
           <div>
-            <img className="projectImgDisplay" src={project.image} />
+            <Link to={project.vercelUrl}>
+              <img className="projectImgDisplay" src={project.image} />
+            </Link>
             <p>
               <b>Skills:</b> {project.skill}
             </p>
           </div>
           <Link to={project.githubUrl} target="blank">
-          <GitHubIcon/>
-          
+            <GitHubIcon />
           </Link>
         </>
       ) : (
