@@ -1,18 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import "../../styles/Footer.css";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <EmailIcon />
-        <LinkedInIcon />
-        <GitHubIcon />
+        <Link to="mailto:baxnetodev@gmail.com" target='_blank'>
+          <EmailIcon />
+        </Link>
+        <Link to="https://www.linkedin.com/in/baxneto/" target='_blank'>
+          <LinkedInIcon />
+        </Link>
       </div>
-      <p>&copy; 2022 baxnetodev.com</p>
+      <p>&copy; 2022 - Baxiclides Basso Neto</p>
     </div>
   );
 };

@@ -25,7 +25,7 @@ export function ProjectDisplayOne() {
             </p>
           </div>
           <Link to={project.githubUrl} target="blank">
-            <GitHubIcon />
+            <GitHubIcon className="gitHubIcon" />
           </Link>
         </>
       ) : (
