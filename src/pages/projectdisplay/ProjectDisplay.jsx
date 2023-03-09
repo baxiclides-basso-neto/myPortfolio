@@ -1,7 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectsList } from "../../helpers/ProjectList";
-import { GitHub } from "@material-ui/icons/GitHub";
+import { Link } from "react-router-dom";
+
+import GitHubIcon from "@material-ui/icons/GitHub";
 import "../../styles/ProjectsDisplay.css";
 
 export function ProjectDisplayOne() {
@@ -20,7 +22,10 @@ export function ProjectDisplayOne() {
               <b>Skills:</b> {project.skill}
             </p>
           </div>
-          {/* <GitHub /> */}
+          <Link to={project.githubUrl} target="blank">
+          <GitHubIcon/>
+          
+          </Link>
         </>
       ) : (
         <div>Invalid project ID</div>
