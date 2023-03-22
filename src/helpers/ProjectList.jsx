@@ -4,14 +4,15 @@ import Project3 from "../assets/Project3.png";
 import Project4 from "../assets/Project4.png";
 import Project5 from "../assets/Project5.png";
 import Project6 from "../assets/Project6.png";
+import Project7 from "../assets/Project7.png";
 
 export const ProjectsList = [
   {
-    name: "Weather Radar",
-    image: Project1,
-    skill: "JavaScript, HTML, CSS",
-    githubUrl: "https://github.com/baxiclides-basso-neto/weatherapplication",
-    vercelUrl: "https://baxiclides-basso-neto.github.io/weatherapplication/",
+    name: "AbraãoAdvocacia - App",
+    image: Project7,
+    skill: "NextJS, JavaScript, Styled-Components",
+    githubUrl: "https://github.com/baxiclides-basso-neto/abraaoadvogados-app",
+    vercelUrl: "https://abraaoadvogados-app.vercel.app/",
     id: "0",
   },
   {
@@ -45,7 +46,8 @@ export const ProjectsList = [
   {
     name: "Burger App TS",
     image: Project5,
-    skill: "ReactJS, TypeScript, HTML, Styled-components, React-Hook-Form, React-Router-Dom ",
+    skill:
+      "ReactJS, TypeScript, HTML, Styled-components, React-Hook-Form, React-Router-Dom ",
     githubUrl:
       "https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-burguer-v2-typescript-baxiclides-basso-neto",
     vercelUrl:
@@ -55,13 +57,18 @@ export const ProjectsList = [
   {
     name: "Advocacia - Baciclides",
     image: Project6,
-    skill: "ReactJS, JavaScript, HTML, Styled-components, React-Hook-Form, React-Router-Dom",
-    githubUrl:
-      "https://github.com/baxiclides-basso-neto/baciclides-advocacia",
-    vercelUrl:
-      "https://baciclides-advocacia-baxiclides-basso-neto.vercel.app/",
+    skill:
+      "ReactJS, JavaScript, HTML, Styled-components, React-Hook-Form, React-Router-Dom",
+    githubUrl: "https://github.com/baxiclides-basso-neto/baciclides-advocacia",
+    vercelUrl: "https://baciclides-advocacia-baxiclides-basso-neto.vercel.app/",
     id: "6",
   },
+  {
+    name: "Weather Radar",
+    image: Project1,
+    skill: "JavaScript, HTML, CSS",
+    githubUrl: "https://github.com/baxiclides-basso-neto/weatherapplication",
+    vercelUrl: "https://baxiclides-basso-neto.github.io/weatherapplication/",
+    id: "0",
+  },
 ];
-
-
