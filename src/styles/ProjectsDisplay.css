@@ -17,6 +17,13 @@
   max-width: 700px;
   border-radius: 10px;
   min-height: 60%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project img:hover {
+  transform: scale(
+    1.1
+  ); /* Adicione esta linha para aumentar o tamanho em 10% ao passar o mouse */
 }
 
 .project p {

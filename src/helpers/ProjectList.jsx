@@ -6,6 +6,7 @@ import Project5 from "../assets/Project5.png";
 import Project6 from "../assets/Project6.png";
 import Project7 from "../assets/Project7.png";
 import Project8 from "../assets/Project8.png";
+import Project9 from "../assets/Project9.png";
 
 export const ProjectsList = [
   {
@@ -80,4 +81,12 @@ export const ProjectsList = [
     vercelUrl: "https://baxiclides-basso-neto.github.io/weatherapplication/",
     id: "0",
   },
+  {
+    name: "OliveiraAdvocacia - App",
+    image: Project9,
+    skill: "JavaScript, HTML, CSS",
+    githubUrl: "https://github.com/baxiclides-basso-neto/oliveiraadvogados-app",
+    vercelUrl: "https://oliveiraadvogados-app.vercel.app/",
+    id: "0",
+  }
 ];
