@@ -6,6 +6,7 @@ import Project6 from "../assets/Project6.png";
 import Project7 from "../assets/Project7.png";
 import Project8 from "../assets/Project8.png";
 import Project9 from "../assets/Project9.png";
+import Project10 from "../assets/Project10.png";
 
 export const ProjectsList = [
   {
@@ -78,5 +79,14 @@ export const ProjectsList = [
     githubUrl: "https://github.com/baxiclides-basso-neto/oliveiraadvogados-app",
     vercelUrl: "https://oliveiraadvogados-app.vercel.app/",
     id: "9",
+  },
+  {
+    name: "Portólio LawLandingPages",
+    image: Project10,
+    skill: "JavaScript, NextJS, Styled-components",
+    githubUrl:
+      "https://github.com/baxiclides-basso-neto/lawlandingpages-advogados",
+    vercelUrl: "https://lawlandingpages-advogados.vercel.app/",
+    id: "10",
   },
 ];
